@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="port.css">
+<!--
+    email js
+-->
+<script
+type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+></script>
+<script type="text/javascript">
+    (function () {
+      emailjs.init("RO9Tx1yXSnVkMT7ny");
+    })();
+  </script>
+        <!-- =====ICONES==== -->
+        <link rel="shortcut icon" href="IMG/cv.png.png" type="image/x-icon">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>CodeVerse</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">CODEVERSE</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Tecnologias</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Bem-Vindo a <br><span class="home__title-color">CODEVERSE</span><br></h1>
+                    <h3>Codificando Ideias, Impulsionando negócios.</h3>
+                    <button class="button" > <a href="index.html">
+                        Conheça nossa Equipe
+                        <div class="hoverEffect">
+                        <div>
+                        </div>
+                        </div></button>
+                </div>
+
+                <div class="home__social">
+                    <a href="index.html" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="index.html" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                     <a href="index.html" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+                </div>
+
+                <div class="home__img">
+                    <img src="cv.png.png" alt="">
+                </div>
+            </section>
+
+            <!--===== SOBRE =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Sobre</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="./codificacao-da-web.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle"></h2>
+                        <p class="about__text">Somos a CodeVerse, temos o objetivo de criar soluções inovadoras para oferecer aos nossos clientes sites de qualidade que atendam às suas necessidades e superem suas expectativas. Fornecemos serviços personalizados utilizando tecnologias eficientes e escaláveis.
+                        
+                            </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Tecnologias</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Tecnologias utilizadas no desenvolvimento</h2>
+                        <p class="skills__text"> -  HTML e CSS.
+                            <br>
+                            - Design Thinking, UX /UI
+                            para experiência do usuário, protótipos, designs, layouts, personalizados para cada cliente.
+                        <br>
+                        - JavaScript e React. </p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                           
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                           
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="./reserva-on-line.png" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--Portfolio-->
+            <section class="work section" id="work">
+                <h2 class="section-title">PROJETO FEITO PELA CODEVERSE</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="" class="work__img">
+                        <img src="./ar/site1.jpeg" alt="">
+                    </a>
+                    
+                    <a href="" class="work__img">
+                        <img src="./ar/site2.jpeg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="./ar/site3.jpeg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="./ar/site4.jpeg" alt="">
+                        <a href="https://anacss24.github.io/TCC-Final-IOS/"> <button class="button"> Acesse o site  </button></a>
+                 
+                    
+                </div>
+                
+            </section> 
+
+            <!--===== CONTATO=====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contato</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="NOME" class="contact__input" for="name"  id="name">
+                        <input type="mail" placeholder="Email" class="contact__input" for="email" id="email">
+                        <textarea name=""  cols="0" rows="10" class="contact__input"for="message"  id="message"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button" onclick="sendMail()">
+                    </form>
+                </div>
+            </section> 
+
+
+
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">CODEVERSE</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <p class="footer__copy"> &#169; <br>todos os direitos reservados <br> codeverse</p>
+        </footer>
+
+        <script src="form.js"></script>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="port.js"></script>
+    </body>
+</html>

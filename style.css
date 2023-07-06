@@ -1,0 +1,106 @@
+body{
+   // background-color: #18072B;  
+   background-color: fff;
+}
+
+nav{
+    padding: 30px;
+    
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.accordion {
+    background-color:#18072B;
+    color: white;
+    cursor: pointer;
+    padding: 25px;
+     border: 2px solid #ccc; 
+     border-radius: 20px; 
+    display: flex;
+    margin-top: 20px;
+    width: 50%;
+   
+    justify-content: center;
+    align-items: center;
+   
+   
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+
+
+  .foto_perfil{
+    width: 50px;
+    height:50px;
+    border-radius: 100px;
+    padding-right: 8px;
+   
+
+  }
+  .codeverse{
+    width: 100%;
+  }
+
+
+  
+  .panel {
+    padding: 0px 18px;
+    display: none;
+    background-color:#18072B;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #18072B;
+    margin-top: 10px;
+    animation-duration: 2s;
+    animation-name: animacao;
+  }
+
+  a:hover{
+    zoom: 120%;
+  }
+ 
+  .accordion:hover{
+    color: black;
+  }
+  .active, .accordion:hover {
+    background-color:#ccc; 
+    
+  }
+  
+
+  @keyframes animacao {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .accordion{
+        width: 100%;
+        font-size: 25px;
+    }
+   
+   .codeverse{
+    zoom: 200%;
+   }
+
+    
+  }
+
+
+  ////Botão home
+ 
